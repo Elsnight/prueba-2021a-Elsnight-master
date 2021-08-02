@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+
+.navbar a{
+    color: #4b3782 !important;
+    font-size: 20px !important;
+    font-weight: bold!important;
+}
+
+.navbar-brand{
+    padding-left: 1.3115rem;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 20px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-size: 20px !important;
+    font-weight: bold!important;
+}
+.nav-link {
+    display: block;
+    padding: 2.5rem 5rem;
+}
+
+.head-1{
+    background-color: #bfabc6;
+}
+
+.head-2{
+    background: url("images/set-virtual.png") no-repeat  center ;
+    opacity: 85%;
+    height: 700px;
+    background-size: cover;
+    position: relative;
+}
+
+.head-3{
+    background-color: #e7e3f9;
+}
+.btn-primary{
+    background-color: #402d7c !important;
+    border-color: #402d7c !important;
+
+}
+
+.btn-outline-primary{
+    color: #59468a !important;
+    border-color: #59468a !important;
+}
+
+h1{
+    color: #6138f6;
+}
+
+#rectangle{
+    background:white;
+    height: 227px;
+    width: 212px;
+    left: 417px;
+    top: 589px;
+    border-radius: 23px;
+
+}
+
+
+ h2{
+     padding: 62px 68px 16px 68px;
+     font-family: Roboto;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 25px;
+     line-height: 29px;
+     color: #6138F6;
+ }
+h3{
+    padding: 0px 15px 48px 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.derecha{
+    background-image: url("images/Pastillas.png");
+}
+
+.col-sm{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 159px;
+}
