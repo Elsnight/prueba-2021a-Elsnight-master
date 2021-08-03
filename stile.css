@@ -36,7 +36,7 @@ button, input, optgroup, select, textarea {
     position: relative;
 }
 
-.head-3{
+.head-3,.head-4,.head-5{
     background-color: #e7e3f9;
 }
 .btn-primary{
@@ -90,6 +90,8 @@ h3{
 
 .derecha{
     background-image: url("images/Pastillas.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .col-sm{
@@ -119,7 +121,23 @@ p{
     color: black;
     font-weight: bold;
     font-size: 18px;
+}
 
+.wrapper{
+    max-height: 120px;
+    border: 1px solid #4b3782;
+    display: flex;
+    overflow-x: auto;
+}
 
-
+.wrapper::-webkit-scrollbar{
+    width: 0;
+}
+.wrapper.item{
+    width: 110px;
+    height: 110px;
+    line-height: 110px;
+    text-align: center;
+    background-color: #ddd;
+    margin-right: 3px;
 }
