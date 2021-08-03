@@ -36,8 +36,9 @@ button, input, optgroup, select, textarea {
     position: relative;
 }
 
-.head-3,.head-4,.head-5{
+.head-3,.head-4,.head-5,.head-6{
     background-color: #e7e3f9;
+    padding-top: 120px;
 }
 .btn-primary{
     background-color: #402d7c !important;
@@ -140,4 +141,107 @@ p{
     text-align: center;
     background-color: #ddd;
     margin-right: 3px;
+}
+.vivo1 {
+    width: 451px;
+    height: 751px;
+    background-image: linear-gradient(rgba(87,89,105,0.32),rgba(5,218,205, 0.53)),url("images/En vivo 1.png");
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 40px;
+}
+
+.head-4 h3{
+    color: #6138f6;
+    font-weight: bold;
+    padding-top: 254px;
+}
+.vivo2 {
+    width: 451px;
+    height: 751px;
+    background-image: linear-gradient(rgba(87,89,105,0.32),rgba(5,218,205, 0.53)),url("images/En vivo 2.png");
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 40px;
+}.vivo3 {
+     width: 451px;
+     height: 751px;
+     background-image: linear-gradient(rgba(87,89,105,0.32),rgba(5,218,205, 0.53)),url("images/En vivo 3.png");
+     flex-direction: column;
+     justify-content: space-between;
+     padding: 30px;
+     border-radius: 40px;
+ }.vivo4 {
+      width: 451px;
+      height: 751px;
+      background-image: linear-gradient(rgba(87,89,105,0.32),rgba(5,218,205, 0.53)),url("images/En vivo 4.png");
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 30px;
+      border-radius: 40px;
+  }
+
+.text1 {
+    background-color: #28326B;
+    padding: 8px 8px 30px;
+    margin: -24px 0 0px 3px;
+    width: 258px;
+    position: absolute;
+    z-index: 1;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 115px;
+    box-shadow: 0px 3px 4px 0px grey;
+}
+
+.text2 {
+    background-color: #07CAB6;
+    padding: 8px 8px 30px;
+    margin: -24px 0 0px 3px;
+    width: 258px;
+    position: absolute;
+    z-index: 1;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 115px;
+    box-shadow: 0px 3px 4px 0px grey;
+}
+
+h5{
+    color: #e7e3f9;
+}
+
+.circular--landscape {
+    display: inline-block;
+    position: relative;
+    width: 167px;
+    height: 167px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.card{
+    width: 400px;
+    height: 400px;
+    background: white   ;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 40px;
+    justify-content: space-between;
+
+}
+
+.btn-outline-primary{
+    width: 190px;
+}
+
+.col-4, col-sm-6 {
+    position: relative;
+    width: 100%;
+    padding-right: 285px;
+    padding-left: 165px;
+    padding-top: 75px;
 }
