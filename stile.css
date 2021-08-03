@@ -57,10 +57,11 @@ h1{
 #rectangle{
     background:white;
     height: 227px;
-    width: 212px;
+    width: 256px;
     left: 417px;
     top: 589px;
     border-radius: 23px;
+    opacity: 90%;
 
 }
 
@@ -73,15 +74,18 @@ h1{
      font-size: 25px;
      line-height: 29px;
      color: #6138F6;
+     text-align: left;
+
  }
 h3{
     padding: 0px 15px 48px 15px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 18px;
     color: #000000;
+    text-align: justify-all;
 }
 
 .derecha{
@@ -93,5 +97,29 @@ h3{
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
-    padding-top: 159px;
+    padding-top: 80px;
+}
+
+.col-8 , col-sm-6{
+    position: relative;
+    width: 100%;
+    padding-right: 100px;
+    padding-left: 200px;
+    padding-top: 50px;
+}
+.col-4 ,col-sm-6{
+    position: relative;
+    width: 100%;
+    padding-right: 100px;
+    padding-left: 200px;
+    padding-top: 75px;
+}
+
+p{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+
+
+
 }
